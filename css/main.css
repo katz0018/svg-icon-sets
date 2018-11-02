@@ -1,0 +1,8 @@
+html {
+  font-family: 'Overpass', sans-serif;
+}
+
+.bg-div {
+  color: #ff9500;
+  background-image: linear-gradient(to top, #ff9500, #ff5e3a);
+}
