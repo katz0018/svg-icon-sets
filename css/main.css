@@ -23,6 +23,7 @@ section {
 }
 
 @media only screen and (min-width: 60em) {
+
   .line {
     border-right: 2px solid #fff;
     border-left: 2px solid #fff;
