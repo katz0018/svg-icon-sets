@@ -14,12 +14,11 @@ section {
 
 .btn, .btn-ghost {
   color: #fff;
-  border: 2px solid #fff;
+  border: 2px solid  rgba(255, 255, 255, 1);
 }
 
 .btn:hover {
   background: #fff;
-  color: rgba(255, 255, 255, 1);
   border-color: #fff;
 }
 
