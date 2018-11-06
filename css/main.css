@@ -8,8 +8,8 @@ section {
 }
 
 .line {
-  border-right: 2px solid #fff;
-  border-left: 2px solid #fff;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
 
 }
 
@@ -20,8 +20,11 @@ section {
 
 @media only screen and (min-width: 60em) {
   .line {
-    border-top: 2px solid #fff;
-    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    border-left: 2px solid #fff;
+
+    border-top: none;
+    border-bottom: none;
   }
 
 }
