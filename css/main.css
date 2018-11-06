@@ -1,19 +1,27 @@
 html {
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
   color: #fff;
 }
 
-.bg-div {
+section {
   background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
 }
 
-  .line{
-  border-right: 3px solid #fff;
-  border-right: 3px solid #fff;
+.line {
+  border-right: 2px solid #fff;
+  border-left: 2px solid #fff;
 
 }
 
 .btn, .btn-ghost{
   color: #fff;
   border: 2px solid #fff;
+}
+
+@media only screen and (min-width: 60em) {
+  .line {
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+  }
+
 }
