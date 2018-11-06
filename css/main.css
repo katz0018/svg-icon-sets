@@ -9,6 +9,9 @@ section {
 
 .line {
   border-top: 2px solid #fff;
+}
+
+.line-2 {
   border-bottom: 2px solid #fff;
 }
 
@@ -25,10 +28,18 @@ section {
 @media only screen and (min-width: 60em) {
 
   .line {
-    border-right: 3px solid #fff;
-    border-left: 3px solid #fff;
     border-top: none;
     border-bottom: none;
+  }
+
+  .line-2 {
+    border-top: none;
+    border-bottom: none;
+  }
+
+  .dome {
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
   }
 
 }
