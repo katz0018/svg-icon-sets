@@ -1,5 +1,5 @@
 html {
-  font-family: "Overpass";
+  font-family: Overpass;
   color: #fff;
 }
 
@@ -27,7 +27,6 @@ section {
   .line {
     border-right: 2px solid #fff;
     border-left: 2px solid #fff;
-
     border-top: none;
     border-bottom: none;
   }
