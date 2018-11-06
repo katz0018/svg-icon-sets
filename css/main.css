@@ -14,7 +14,7 @@ section {
 
 .btn, .btn-ghost {
   color: #fff;
-  border: 2px solid  rgba(255, 255, 255, 1);
+  border: 3px solid  rgba(255, 255, 255, 1);
 }
 
 .btn:hover {
@@ -25,8 +25,8 @@ section {
 @media only screen and (min-width: 60em) {
 
   .line {
-    border-right: 2px solid #fff;
-    border-left: 2px solid #fff;
+    border-right: 3px solid #fff;
+    border-left: 3px solid #fff;
     border-top: none;
     border-bottom: none;
   }
